@@ -8,6 +8,7 @@ public final class MyTransformers {
 	public Order transformStringToOrder(String from) {
 		Order order = new Order();
 		order.setItemId(from);
+		order.setQuantity(1);
 		return order;
 	}
 
