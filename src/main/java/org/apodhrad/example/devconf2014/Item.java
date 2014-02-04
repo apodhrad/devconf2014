@@ -10,7 +10,7 @@ public class Item {
 
 	private String itemId;
 	private String description;
-	private double prize;
+	private int quantity;
 
 	public String getItemId() {
 		return itemId;
@@ -28,12 +28,12 @@ public class Item {
 		this.description = description;
 	}
 
-	public double getPrize() {
-		return prize;
+	public int getQuantity() {
+		return quantity;
 	}
 
-	public void setPrize(double prize) {
-		this.prize = prize;
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 
 }
